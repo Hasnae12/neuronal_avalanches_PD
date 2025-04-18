@@ -43,7 +43,7 @@ Parkinson's disease (PD) is a neurodegenerative disease primarily characterized 
    
 7) The file **about_preprocessing_PD_resting_state_data**: To describe the preprocessing steps using the Fieldtrip Toolbox.
 
-           1. **Filtering:** Apply a high-pass filter at 1.3 Hz. 
+           1. **Filtering:**  a high-pass filter at 1.3 Hz and a low-pass filter at 45 Hz. 
            2. **Downsampling:** Downsample from 2048 Hz to 512 Hz.
            3. **Epoching:** 4 seconds for each epoch.
            4. **Remove the bad epochs.**
